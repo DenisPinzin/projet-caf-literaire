@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(../fonts/Roboto/static/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Semi-bold";
+    src: url(../fonts/Roboto/static/Roboto-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(../fonts/Roboto/static/Roboto-Bold.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Regular";
+}
+
+/**HEADER**/
+
+header {
+    background-color: pink;
+    color: white;
+    text-align: center;
+    box-shadow: 1px 3px 5px lightgray;
+    padding: 40px;
+}
+
+h1 {
+    margin: 0;
+}
+
+/**HERO**/
+
+.hero {
+    text-align: center;
+}
+
+.hero-img {
+    margin-top: 40px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px lightgray;
+}
+
+.hero h2 {
+    color: pink;
+}
+
+.hero > p {
+    font-weight: 600;
+}
+
+.btn {
+    display: inline-block;
+    align-content: center;
+    width: 160px;
+    height: 40px;
+    border: 1px solid pink;
+    text-decoration: none;
+    border-radius: 7px;
+    background-color: pink;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 0 15px lightgray;
+}
+
+/*RECOMMANDATION*/
+
+.recom {
+    margin: 0 20px 40px;
+}
+
+.recom h2 {
+    color: pink;
+}
+
+.event-item--meta {
+    font-weight: 700;
+}
+
+.recom p {
+    display: block;
+    margin: 0;
+    background-color: beige;
+    box-shadow: 0 0 15px lightgray;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+/*EVENTS*/
+
+.events {
+    margin: 0 20px;
+}
+
+.events h2 {
+    color: pink;
+}
+
+.event-item {
+    background-color: beige;
+    box-shadow: 0 0 15px lightgray;
+    padding: 20px;
+    margin-bottom: 17px;
+}
+
+/*RESERV*/
+
+.reserv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reserv h2 {
+    color: pink;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+input {
+    display: inline-block;
+}
+
+label {
+    font-weight: 600;
+    font-size: small;
+    margin-bottom: 5px;
+}
+
+button {
+    margin-top: 10px;
+    box-shadow: 0 0 15px lightgray;
+    background-color: pink;
+    color: white;
+    width: 95%;
+    padding: 6px;
+    border-radius: 7px;
+}
+
+/*FOOTER*/
+
+footer {
+    margin-top: 70px;
+    text-align: center;
+    font-size: small;
+}
