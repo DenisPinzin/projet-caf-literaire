@@ -18,52 +18,67 @@
           alt="Une Bibliotèque rose"
           class="hero-img"
         />
-        <h2>Un lieu pour lire, discuter et se détendre</h2>
-        <p>
-          Découvrez notre espace dédié aux passionnés de littérature avec une
-          sélection de livres, des événements littéraires et une ambiance
-          chaleureuse. Rejoignez-nous pour une expérience inoubliable.
-        </p>
-        <a href="#" class="btn btn-primary">Réserver une table</a>
+        <div class="hero-description">
+          <h2>Un lieu pour lire, discuter et se détendre</h2>
+          <p>
+            Découvrez notre espace dédié aux passionnés de littérature avec une
+            sélection de livres, des événements littéraires et une ambiance
+            chaleureuse. Rejoignez-nous pour une expérience inoubliable.
+          </p>
+          <a href="#" class="btn btn-primary">Réserver une table</a>
+        </div>
       </section>
 
       <!--RECOMMANDATION-->
       <section class="recom">
         <h2>Nos recommandations de lecture</h2>
-        <p><span  class="event-item--meta">Le Petit Prince</span> - Antoine de Saint-Exupéry</p>
-        <p><span  class="event-item--meta">1984</span> - George Orwell</p>
-        <p><span  class="event-item--meta">Les Misérables</span> - Victor Hugo</p>
-        <p><span  class="event-item--meta">Harry Potter à l' école des sorciers</span> - J.K. Rowling</p>
+        <p>
+          <span class="event-item--meta">Le Petit Prince</span> - Antoine de
+          Saint-Exupéry
+        </p>
+        <p><span class="event-item--meta">1984</span> - George Orwell</p>
+        <p>
+          <span class="event-item--meta">Les Misérables</span> - Victor Hugo
+        </p>
+        <p>
+          <span class="event-item--meta"
+            >Harry Potter à l' école des sorciers</span
+          >
+          - J.K. Rowling
+        </p>
       </section>
 
       <!--EVENT-->
       <section class="events">
         <h2>Événements à venir</h2>
-        <div class="event-item">
-          <h3>Club de lecture</h3>
-          <p><span  class="event-item--meta">Date :</span> 15 mars 2025</p>
-          <p><span  class="event-item--meta">Heure :</span> 17:00</p>
-          <p>
-            Rejoignez notre club de lecture pour discuter de vos livres péférés.
-          </p>
-        </div>
-        <div class="event-item">
-          <h3>Atelier d'écriture</h3>
-          <p><span  class="event-item--meta">Date :</span> 22 mars 2025</p>
-          <p><span  class="event-item--meta">Heure :</span> 14:00</p>
-          <p>
-            Participez à notre atelier d' écriture et développez vos compétences
-            littéraires.
-          </p>
-        </div>
-        <div class="event-item">
-          <h3>Rencontre avec un auteur</h3>
-          <p><span  class="event-item--meta">Date :</span> 29 mars 2025</p>
-          <p><span  class="event-item--meta">Heure :</span> 18:00</p>
-          <p>
-            Venez rencontrer un auteur et échanger avec lui sur son dernier
-            livre.
-          </p>
+        <div class="event-item-container">
+          <div class="event-item">
+            <h3>Club de lecture</h3>
+            <p><span class="event-item--meta">Date :</span> 15 mars 2025</p>
+            <p><span class="event-item--meta">Heure :</span> 17:00</p>
+            <p>
+              Rejoignez notre club de lecture pour discuter de vos livres
+              péférés.
+            </p>
+          </div>
+          <div class="event-item">
+            <h3>Atelier d'écriture</h3>
+            <p><span class="event-item--meta">Date :</span> 22 mars 2025</p>
+            <p><span class="event-item--meta">Heure :</span> 14:00</p>
+            <p>
+              Participez à notre atelier d' écriture et développez vos
+              compétences littéraires.
+            </p>
+          </div>
+          <div class="event-item">
+            <h3>Rencontre avec un auteur</h3>
+            <p><span class="event-item--meta">Date :</span> 29 mars 2025</p>
+            <p><span class="event-item--meta">Heure :</span> 18:00</p>
+            <p>
+              Venez rencontrer un auteur et échanger avec lui sur son dernier
+              livre.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -72,7 +87,13 @@
         <h2>Réserver une table</h2>
         <form action="/inscription" method="">
           <label for="nom">Nom :</label>
-          <input id="nom" name="" type="text" required value="Nom et Prénom..." />
+          <input
+            id="nom"
+            name=""
+            type="text"
+            required
+            value="Nom et Prénom..."
+          />
 
           <label for="email">Email :</label>
           <input id="email" name="" type="email" required />
